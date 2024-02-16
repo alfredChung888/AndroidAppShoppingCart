@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="864dp"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="369dp"
+            android:layout_height="662dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="-3dp"
+            android:layout_weight="1"
+            android:scrollbarSize="3dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true" />
+
+
+        <Button
+            android:id="@+id/saveImage"
+            android:layout_width="389dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RecyclerView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center"
+            android:text="Save Image" />
+
+        <Button
+            android:id="@+id/cancelImage"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/saveImage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="192dp"
+            android:gravity="center"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/deleteImage"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/saveImage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancelImage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="198dp"
+            android:gravity="center"
+            android:text="Take Photo For Gallery" />
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancelImage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="174dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:gravity="center"
+            android:text="Add Img From Gallery" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+

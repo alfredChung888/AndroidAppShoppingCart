@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="5dp"
+    >
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:layout_marginTop="130dp"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Edit Details"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/confirm"
+            android:hint="ID:" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_id"
+            android:layout_marginTop="15dp"
+            android:hint="Name:" />
+
+        <EditText
+            android:id="@+id/edit_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_name"
+            android:layout_marginTop="15dp"
+            android:hint="Quantity:" />
+
+
+        <Button
+            android:id="@+id/editSave_button"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_quantity"
+            android:layout_marginTop="5dp"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+        <!--        android:background="blue"-->
+
+        <Button
+            android:id="@+id/cancelEditButton"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editSave_button"
+            android:padding="3dip"
+
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancelEditButton"
+            android:padding="3dip"
+
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/EditImage"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancelEditButton"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="51dp"
+            android:padding="3dip"
+            android:text="Update Image" />
+
+
+    </RelativeLayout>
+</LinearLayout>

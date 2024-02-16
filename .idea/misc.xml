@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.33213429256594723" />
+        <entry key="app/src/main/res/layout/activity_add_image.xml" value="0.3699478149414062" />
+        <entry key="app/src/main/res/layout/activity_addgrocerypage.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_display.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_edit_grocery_list.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_editgrocerylist.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_grocery_page.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_grocerypage.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/activity_recycler_view_add_image.xml" value="0.2877297990594271" />
+        <entry key="app/src/main/res/layout/content_addgrocerypage.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/content_display.xml" value="0.40037071362372567" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.5320158102766799" />
+        <entry key="app/src/main/res/layout/fragment_first 2.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/list_group.xml" value="0.540625" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.5395833333333333" />
+        <entry key="app/src/main/res/layout/provider_paths.xml" value="0.22103463018383926" />
+        <entry key="app/src/main/res/layout/recycler_layout.xml" value="0.26336041043180847" />
+        <entry key="app/src/main/res/layout/recycler_viewimage.xml" value="0.2868747327917914" />
+        <entry key="app/src/main/res/layout/rowlayout.xml" value="0.43578796386718754" />
+        <entry key="app/src/main/res/layout/shopping_addpage.xml" value="0.4625908507909363" />
+        <entry key="app/src/main/res/layout/shopping_addpage_content.xml" value="0.4291030883789062" />
+        <entry key="app/src/main/res/layout/shopping_addpage_layout.xml" value="0.46173578452330055" />
+        <entry key="app/src/main/res/layout/shopping_edit.xml" value="0.4625908507909363" />
+        <entry key="app/src/main/res/layout/shopping_list_display.xml" value="0.44206085205078116" />
+        <entry key="app/src/main/res/layout/shoppinglist_layout.xml" value="0.46173578452330055" />
+        <entry key="app/src/main/res/layout/shoppingpage_activity.xml" value="0.2612227447627191" />
+        <entry key="app/src/main/res/layout/shoppingpage_content.xml" value="0.2612227447627191" />
+        <entry key="app/src/main/res/menu/home_menu.xml" value="0.540625" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.540625" />
+        <entry key="app/src/main/res/xml/provider_paths.xml" value="0.221889696451475" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

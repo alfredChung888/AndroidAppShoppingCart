@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Enter Details"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editshopId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ask"
+            android:hint="ID:" />
+
+        <EditText
+            android:id="@+id/editshopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editshopId"
+            android:layout_marginTop="15dp"
+            android:hint="Shop Name:" />
+
+        <EditText
+            android:id="@+id/editlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editshopName"
+            android:layout_marginTop="15dp"
+            android:hint="Location:" />
+
+        <EditText
+            android:id="@+id/editdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editlocation"
+            android:layout_marginTop="15dp"
+            android:hint="Date:" />
+
+
+        <ListView
+            android:id="@+id/edit_list_View"
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:layout_below="@+id/editdate"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/editshopping_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_list_View"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/editshopping_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editshopping_save_button"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="1dp"
+            android:padding="3dip"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/editshopping_delete"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editshopping_cancel"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="1dp"
+            android:padding="3dip"
+            android:text="Delete" />
+
+        <TextView
+            android:id="@+id/response"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editshopping_delete"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="20dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
